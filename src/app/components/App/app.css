@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Inconsolata|Droid+Sans);
+
+body {
+  font-family: 'Inconsolata', 'Roboto', 'Droid Sans';
+  background: #292b36;
+  color: white;
+}
+
+h1 {
+  font-variant-caps: small-caps; /* CSS4 | cssnex */
+  color: #93c56e;
+}
+
+h2 {
+  color: #b74399;
+}
+
+h3 {
+  color: #49aaa4;
+}
+
+h4 {
+  color: #db413C;
+}
+
+h5 {
+  color: #d48e5d;
+}

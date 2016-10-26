@@ -43,15 +43,16 @@ let config = {
   },
   VENDORS: [
     'react',
+    'react-dom',
     'react-router'
   ],
 
   // T E S T   C O N F I G U R A T I O N
   TEST_COVERAGE: !argv.watch,
   TEST_REPORTERS: [
-    {type: 'lcov', dir: 'coverage/', subdir: '.'},
-    {type: 'json', dir: 'coverage/', subdir: '.'},
-    {type: 'text-summary'}
+    { type: 'lcov', dir: 'coverage/', subdir: '.' },
+    { type: 'json', dir: 'coverage/', subdir: '.' },
+    { type: 'text-summary' }
   ]
 }
 
