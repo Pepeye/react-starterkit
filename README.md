@@ -31,8 +31,8 @@ Stack
 * [supertest](https://github.com/visionmedia/supertest)
   * [supertest-as-promised](https://github.com/WhoopInc/supertest-as-promised)
 * [Babel](https://github.com/babel/babel)
-  * [babel-preset-latest](https://github.com/leebenson/babel-preset-latest)
-  * [babel-preset-react](https://github.com/leebenson/babel-preset-react)
+  * [babel-preset-latest](https://babeljs.io/docs/plugins/preset-latest)
+  * [babel-preset-react](http://babeljs.io/docs/plugins/preset-react)
   * [babel-preset-stage-0](https://babeljs.io/docs/plugins/preset-stage-0)
 * [ESLint](http://eslint.org)ic `.eslintrc` to work with Mocha and Chai
 * [better-npm-run](https://github.com/benoror/better-npm-run)
