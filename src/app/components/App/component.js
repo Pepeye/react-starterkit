@@ -9,7 +9,8 @@ class App extends Component {
         <h2>Webpack, Jest, Flow</h2>
         <h3>Powered by Yarn</h3>
         <h4>Pepeye</h4>
-        <h5>MIT License</h5>
+        <h5>Date: 26 Oct 2016</h5>
+        <span>learn()</span>
       </div>
     )
   }

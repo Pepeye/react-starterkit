@@ -36,11 +36,12 @@ function getEntrySources (sources) {
     //   `webpack-hot-middleware/client?path=${config.COMPILER_PUBLIC_PATH}__webpack_hmr`,
     //   `webpack-dev-server/client?http://${config.HOST}:${config.PORT}`,
     //   'webpack/hot/dev-server'
+    //   'webpack/hot/only-dev-server'
     // ]
     return [
       ...sources,
       `webpack-dev-server/client?http://${config.HOST}:${config.PORT}`,
-      'webpack/hot/only-dev-server'
+      'webpack/hot/dev-server'
     ]
   }
 
