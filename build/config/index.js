@@ -16,7 +16,7 @@ let config = {
 
   // P R O J E C T   S T R U C T U R E
   ROOT_PATH: path.resolve(__dirname, '../../'),
-  APP_PATH: 'src/app',
+  APP_PATH: 'src',
   DIST_PATH: 'dist',
   SERVER_PATH: 'src/server',
   TEST_PATH: 'tests',
